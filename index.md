@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+# Music Generation: A project proposal for CS152
 
-You can use the [editor on GitHub](https://github.com/davidjyang/cs152-proposal/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Project Description
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+For this project, I hope to use train neural networks (NNs) in a general adversarial network (GAN) to create music. In order to do this, I plan to train NNs on existing datasets of sheet music images of a specific genre and eventually generate its own sheet music. 
 
-### Markdown
+The GAN, after being trained, will be deployed as an application where it can generate measures of new music, specific to the genre it was trained on. If the project works ideally, then it would be potentially possible to train the GAN on multiple genres and be able to generate genre-distinct music. In addition, it would not be significantly distinguishable from the “real” music it would have been trained on. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+A long-term goal for this project is to explore the idea of generating something within an auditory medium via purely visual inputs; on a broader scale, explore how an AI can create art and its distinguishability from human-created art. 
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Project Goals
 
-- Bulleted
-- List
+1. Find a dataset of sheet music (potentially classical, 1-3 instruments).
+2. Train a GAN on this dataset to be able to emulate key aspects of the dataset.
+3. Expand and train the GAN in order to generate more genres based on more datasets.
+4. Potentially combine training sets and genres in order to explore more music generation possibilities.
+5. Explore ethical considerations of using an AI to create art.
 
-1. Numbered
-2. List
+## Questions to Answer
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/davidjyang/cs152-proposal/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+1. If the project succeeds and is able to generate music based on a training data set, who/what gets credit for the generated music?
+2. Would generating music too close to the dataset be plagiarism?
+3. Would music (an auditory medium) be able to be created purely based on sheet music (visual inputs)?
