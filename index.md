@@ -1,4 +1,5 @@
-# ClassicallyTrained: A project proposal for CS152
+# ClassicallyTrained
+##### A project proposal for CS152
 
 ## Project Description
 
