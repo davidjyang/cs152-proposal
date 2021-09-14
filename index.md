@@ -22,4 +22,4 @@ A long-term goal for this project is to explore the idea of generating something
 
 1. If the project succeeds and is able to generate music based on a training data set, who/what gets credit for the generated music?
 2. Would generating music too close to the dataset be plagiarism?
-3. Would music (an auditory medium) be able to be created purely based on sheet music (visual inputs)?
+3. Would music (an auditory medium) be able to be successfully created purely based on sheet music (visual inputs) and if so, would it be unique from the dataset of "real" music?
