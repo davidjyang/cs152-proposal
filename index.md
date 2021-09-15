@@ -3,7 +3,7 @@
 
 ## Project Description
 
-For this project, I hope to use train neural networks (NNs) in a general adversarial network (GAN) to create music. In order to do this, I plan to train NNs on existing datasets of sheet music images of classical music and eventually generate its own sheet music. 
+For this project, I hope to train neural networks (NNs) in a general adversarial network (GAN) to create music. In order to do this, I plan to train NNs on existing datasets of sheet music images of classical music and eventually generate its own sheet music. 
 
 The GAN, after being trained, will be deployed as an application where it can generate measures of new music, based on the classical data set that it was trained on. If the project works ideally, then it would be potentially possible to train the GAN on multiple genres and be able to generate genre-distinct music. In addition, anything created would not be significantly distinguishable from the “real” music it would have been trained on. 
 
